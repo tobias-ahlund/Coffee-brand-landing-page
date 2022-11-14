@@ -1,1 +1,24 @@
 /* Header */
+header {
+    position: relative;
+}
+
+.hero {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    margin: 5%;
+}
+
+.products-group {
+    position: absolute;
+    margin-left: 5%;
+    left: 0;
+    bottom: -6%;
+    width: 40%;
+}

@@ -1,1 +1,17 @@
 /* All saved colors from Figma should be created as variables here. */
+:root {
+    --light-green: #E7EAC4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    background-color: var(--light-green);
+    top: 0;
+   
+}
