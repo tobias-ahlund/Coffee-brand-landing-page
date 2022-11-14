@@ -1,5 +1,5 @@
 .list-menu {
-    background-color: black;
+    background-color: var(--brown);
     left: 100%;
     top: 0;
     transition: 300ms ease-out;
@@ -34,13 +34,21 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-ul {
-    list-style-type: none;
+h3:first-of-type {
     margin-top: 15%;
 }
 
-li {
-    padding: 1rem 1rem 0 1rem;
+h3 {
+    padding: 1rem;
+    margin-left: 5%;
     font-size: 2rem;
     color: white;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+hr {
+    margin: 0 5% 0 5%;
+    border: 1px solid white;
+    opacity: 0.3;
 }
