@@ -1,5 +1,67 @@
 /* Main */
 
+/* Buy product section */
+
+.buy-product-section {
+  width: 188px;
+  border-radius: 10px;
+  margin: 150px auto;
+  background-color: var(--dark-green);
+  height: 320px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.buy-product-section-product-image {
+  width: 136px;
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buy-product-section h3 {
+  top: 149px;
+  position: absolute;
+  font-size: var(--h3);
+  margin-left: 16px;
+}
+
+.buy-product-section-text{
+  position: absolute;
+  top: 178px;
+  font-size: var(--paragraph-small);
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.buy-product-section-button {
+  position: absolute;
+  width: 142px;
+  height: 46px;
+  background-color: var(--light-beige);
+  bottom: -23px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.buy-product-section-button-text {
+  font-weight: bold;
+  font-size: var(--paragraph);
+  margin-left: 24px;
+}
+
+.buy-product-section-button-arrow {
+  margin-right: 16px;
+}
+
 /* Sign-up with email*/
 .sign-up-section {
   width: calc(100% - 48px);
