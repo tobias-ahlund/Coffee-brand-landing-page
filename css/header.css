@@ -1,24 +1,43 @@
 /* Header */
 header {
-    position: relative;
+  position: relative;
 }
 
 .hero {
-    width: 100%;
+  width: 100%;
 }
 
 .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    margin: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  margin: 5%;
 }
 
 .products-group {
-    position: absolute;
-    margin-left: 5%;
-    left: 0;
-    bottom: -6%;
-    width: 40%;
+  position: absolute;
+  margin-left: 5%;
+  left: 0;
+  bottom: -6%;
+  width: 40%;
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  width: 30%;
+  right: 5%;
+  top: 40%;
+  text-align: right;
+}
+
+.hero-text p {
+  font-size: var(--paragraph-small);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text p {
+    font-size: var(--heading-large);
+  }
 }
