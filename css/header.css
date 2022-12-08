@@ -40,13 +40,13 @@ nav {
   display: none;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: var(--white);
   margin-left: 3rem;
 }
 
-a:hover {
+nav a:hover {
   color: var(--dark-beige);
 }
 
@@ -69,4 +69,9 @@ a:hover {
     font-size: var(--heading-large);
     font-weight: bold;
   }
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-gray);
 }
