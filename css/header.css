@@ -49,6 +49,7 @@ a {
 a:hover {
   color: var(--dark-beige);
 }
+
 @media screen and (min-width: 768px) {
   .hero-text p {
     font-size: var(--heading-large);

@@ -27,12 +27,35 @@
   width: 48vw;
   border-radius: 10px;
   margin: 150px 50px 50px 50px;
-  background-color: var(--dark-green);
   height: 320px;
   position: relative;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   flex-shrink: 0;
+}
+
+.brisas {
+  background-color: var(--dark-green);
+}
+
+.brisas-button {
+  background-color: var(--dark-beige);
+}
+
+.lajas {
+  background-color: var(--brown);
+}
+
+.lajas-button {
+  background-color: var(--white);
+}
+
+.yirga {
+  background-color: var(--dark-beige);
+}
+
+.yirga-button {
+  background-color: var(--dark-green);
 }
 
 .buy-product-section-product-image {
@@ -62,7 +85,7 @@
   position: absolute;
   width: 142px;
   height: 46px;
-  background-color: var(--light-beige);
+
   bottom: -23px;
   left: 50%;
   transform: translateX(-50%);
@@ -294,4 +317,37 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+/* Media query for buying coffe-section*/
+@media screen and (min-width: 768px) {
+  .buy-product-section {
+    background-color: var(--dark-beige);
+    height: 46rem;
+  }
+
+  .buy-product-section-products-wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buy-product-section-product-container {
+    width: 17rem;
+    height: 30rem;
+  }
+
+  .buy-product-section-product-container h3 {
+    font-size: var(--h2);
+  }
+
+  .buy-product-section-text {
+    font-size: var(--paragraph);
+    margin-top: 3rem;
+  }
+
+  .yirga {
+    background-color: var(--light-green);
+  }
 }
