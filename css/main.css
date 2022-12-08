@@ -210,6 +210,7 @@
 .img-plantation {
   width: 100%;
   margin-top: 2.5rem;
+  display: block;
 }
 
 /* Customer-review section*/
@@ -365,7 +366,28 @@
 }
 
 @media screen and (min-width: 768px) {
-  .info-desktop {
+  .bottom-sections-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 828px;
+  }
+}
+
+/* Cusomer section desktop */
+@media screen and (min-width: 768px) {
+  .customer-section {
+    background-color: var(--dark-green);
+    order: 2;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* Business section desktop */
+@media screen and (min-width: 768px) {
+  .buisness-information-section {
     background-color: var(--light-green);
     width: 50%;
     position: absolute;
