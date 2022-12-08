@@ -364,27 +364,6 @@
     margin-right: 1rem;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .bottom-sections-container {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    height: 828px;
-  }
-}
-
-/* Cusomer section desktop */
-@media screen and (min-width: 768px) {
-  .customer-section {
-    background-color: var(--dark-green);
-    order: 2;
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
 /* Business section desktop */
 @media screen and (min-width: 768px) {
   .info-desktop {
@@ -393,6 +372,9 @@
     height: 48rem;
     top: 0;
   }
+}
+
+  @media screen and (min-width: 768px) {
 
   .info-section {
     width: 30rem;

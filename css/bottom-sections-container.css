@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px) {
+    .bottom-sections-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 828px;
+    }
+    .bottom-sections-container > * {
+        min-width: 0;
+    }
+}
+  
+/* Customer section desktop */
+@media screen and (min-width: 768px) {
+    .customer-section {
+        background-color: var(--dark-green);
+        order: 2;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Founder section desktop */
+@media screen and (min-width: 768px) {
+    .founder-section {
+        background-color: var(--dark-beige);
+        grid-row: span 2;
+        order: 1;
+        width: 100%;
+        border-radius: 0;
+        height: 100%;
+        margin: 0;
+    }
+    .founder-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 0 0 168px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .founder-section-image {
+        width: 291px;
+        height: 291px; 
+        left: 0;
+        position: static;
+        display: block;
+    }
+    .founder-section h3 {
+        font-size: 38px;
+        position: static;
+        text-align: left;
+    }
+    .founder-section-p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 425px;
+        padding-left: 0;
+        padding-right: 0;
+        position: static;
+        margin-top: 6px;
+    }
+    .founder-section-p-name {
+        top: 378px;
+    }
+}
+
+/* Business section desktop */
+@media screen and (min-width: 768px) {
+    .buisness-information-section {
+        order: 3;
+        margin: 0;
+        width: 100%;
+    }
+
+    .business-information-container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .test {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        width: 322px;
+    }
+
+    .business-information-container p:first-of-type {
+        font-size: 14px;
+    }
+
+    .business-information-container p:last-of-type {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .business-information-container img {
+        position: static;
+        width: 250px;
+    }
+}
