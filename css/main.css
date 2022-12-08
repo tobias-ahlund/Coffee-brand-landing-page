@@ -387,8 +387,7 @@
 
 /* Business section desktop */
 @media screen and (min-width: 768px) {
-  .buisness-information-section {
-    background-color: var(--light-green);
+  .info-desktop {
     width: 50%;
     position: absolute;
     height: 48rem;
