@@ -350,4 +350,15 @@
   .yirga {
     background-color: var(--light-green);
   }
+
+  .buy-product-section-button {
+    width: 200px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buy-product-section-button-text {
+    margin-right: 1rem;
+  }
 }
