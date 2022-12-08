@@ -1,1 +1,18 @@
 /* Footer */
+
+footer {
+    min-height: 232px;
+    background-color: var(--light-beige);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 100%;
+    background-color: var(--light-beige);
+    color: var(--dark-gray);
+    justify-content: space-around;
+  }
+
