@@ -407,10 +407,37 @@
 
   .sign-up-section {
     display: flex;
-    width: 30rem;
+    /* width: 30rem; */
+    width: 50%;
     height: 20rem;
     margin-top: 10rem;
     align-items: center;
+    justify-content: center;
+  }
+
+  .sign-up-section form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-up-section h3 {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sign-up-section input[type=email] {
+    width: 100%;
+    padding: 0;
+    text-indent: 8px;
+    margin: 32px 0 24px 0;
+  }
+
+  .sign-up-section input[type=submit] {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .buisness-section {
