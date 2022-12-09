@@ -9,3 +9,22 @@ menuSelect.addEventListener("click", function() {
             hiddenMenu.classList.add("active");
         }
 });
+
+
+const founderNameMobile = document.querySelector(".founder-section-p-name");
+
+const founderNameDesktop = document.querySelector(".founder-name");
+
+var w = window.innerWidth
+
+if (w <= 767) {
+    founderNameMobile.classList.add("visible");
+} else if (w >= 768) {
+    founderNameMobile.classList.add("hidden");
+}
+
+if (w <= 767) {
+    founderNameDesktop.classList.add("hidden");
+} else if (w >= 768) {
+    founderNameDesktop.classList.add("visible");
+}

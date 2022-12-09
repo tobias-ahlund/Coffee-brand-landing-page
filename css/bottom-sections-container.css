@@ -135,14 +135,19 @@
     }
 
     .founder-header-image-wrapper {
-        width: 325px;
+        width: 300px;
     }
 
     .founder-name {
         margin-top: -5px;
+        margin-right: 80px;
     }
 
     .founder-section-p {
-        width: 325px;
+        width: 300px;
+    }
+
+    .founder-section h3 {
+        margin-top: 0;
     }
 }
