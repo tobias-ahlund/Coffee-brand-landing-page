@@ -3,7 +3,7 @@ header {
   position: relative;
 }
 
-.hero {
+.hero, .hero-desktop {
   width: 100%;
   display: block;
 }
@@ -14,6 +14,12 @@ header {
   left: 0;
   width: 30%;
   margin: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-top: 1%;
+  }
 }
 
 .products-group {
@@ -28,13 +34,83 @@ header {
   position: absolute;
   color: white;
   width: 30%;
-  right: 5%;
-  top: 40%;
-  text-align: right;
+  margin: 5%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text hr {
+  border-top: 0.5px solid white;
+  opacity: 1;
+  padding: 0;
 }
 
 .hero-text p {
   font-size: var(--paragraph-small);
+}
+
+.first-row {
+  font-size: 8px;
+  margin: 5px 0 2px 0;
+}
+
+.last-row {
+  font-size: 8px;
+  margin: 2px 0 5px 0;
+}
+
+.second-row {
+  font-size: 12px;
+}
+
+.third-row {
+  font-size: 12px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reg {
+  font-size: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    width: 25%;
+    right: 1.5%;
+  }
+
+  .hero-text hr {
+    border: 1px solid white;
+  }
+
+  .first-row {
+    font-size: var(--parapgraph);
+    margin-top: 10px;
+  }
+
+  .second-row {
+    font-size: var(--h1);
+    font-weight: bold;
+  }
+
+  .third-row {
+    font-size: var(--h1);
+    font-weight: bold;
+  }
+
+  .last-row {
+    font-size: var(--parapgraph);
+    margin-bottom: 10px;
+  }
+
+  .reg {
+    font-size: 20px;
+  }
 }
 
 nav {
@@ -53,7 +129,12 @@ nav a:hover {
 
 @media screen and (min-width: 768px) {
   .hero-text p {
-    font-size: var(--heading-large);
+    font-size: var(--h1);
+  }
+
+  .hero-text {
+    bottom: 0;
+    top: inherit;
   }
 
   .hamburger-menu {
@@ -61,18 +142,28 @@ nav a:hover {
   }
 
   nav {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     position: absolute;
-    top: 10%;
-    right: 12%;
+    top: 3%;
+    right: 3%;
+    width: 100%;
     margin: 0;
-
-    font-size: var(--heading-large);
-    font-weight: bold;
+    font-size: var(--h1);
+    font-weight: normal;
+  }
+  nav a {
+    margin-left: 5%;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    color: white;
   }
 }
 
 a {
   text-decoration: none;
+  
   color: var(--dark-gray);
 }
