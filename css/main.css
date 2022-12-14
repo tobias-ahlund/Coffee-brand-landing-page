@@ -590,6 +590,7 @@
 
 @media screen and (min-width: 900px) {
   .buy-product-section-product-container {
-    margin: 110px 56px 50px 56px;
+    margin-right: 56px;
+    margin-left: 56px;
   }
 }
