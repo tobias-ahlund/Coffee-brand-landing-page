@@ -36,7 +36,7 @@
 
 .brisas {
   background-color: var(--dark-green);
-  margin-left: 40px;
+  margin-left: 24px;
 }
 
 .brisas-button {
@@ -53,7 +53,7 @@
 
 .yirga {
   background-color: var(--dark-beige);
-  margin-right: 40px;
+  margin-right: 24px;
 }
 
 .yirga-button {
@@ -213,7 +213,7 @@
   display: flex;
   width: calc(100% - 48px);
   margin: auto;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   flex-direction: column;
   align-items: center;
 }
@@ -240,13 +240,13 @@
 
 .img-plantation {
   width: 100%;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   display: block;
 }
 
 /* Customer-review section*/
 .customer-container {
-  width: calc(100% - 32px);
+  width: calc(100% - 48px);
   display: flex;
   margin: auto;
   justify-content: center;
@@ -262,7 +262,7 @@
 
 .customer-section-heading2 {
   text-align: center;
-  margin: 3rem 1rem 1rem 1rem;
+  margin: 5rem 1rem 2rem 1rem;
 }
 
 .img-customer {
@@ -290,14 +290,14 @@
 
 /* Founder section */
 .founder-section {
-  width: 20.5rem;
+  width: calc(100% - 48px);
   background-color: var(--dark-green);
   margin: auto;
   border-radius: 10px;
 
   position: relative;
   height: 17rem;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .founder-section-image {
@@ -332,8 +332,8 @@
 .buisness-information-section {
   width: calc(100% - 48px);
   margin: auto;
-  margin-top: 64px;
-  margin-bottom: 100px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 
@@ -494,7 +494,7 @@
 
   .buisness-section {
     position: absolute;
-    bottom: 4%;
+    bottom: -11%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -531,6 +531,10 @@
 @media screen and (min-width: 768px) {
   .buy-product-section-product-image {
     top: -10%;
+  }
+
+  .img-plantation {
+    margin-top: 40px;
   }
 }
 
@@ -578,7 +582,6 @@
     bottom: 0;
   }
 }
-
 
 .hidden {
   display: none;
