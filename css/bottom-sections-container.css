@@ -6,6 +6,7 @@
         grid-template-rows: 1fr 1fr;
         height: 828px;
     }
+
     .bottom-sections-container > * {
         min-width: 0;
     }
@@ -23,21 +24,21 @@
         flex-direction: column;
         margin: 0;
         justify-content: center;
+        padding: 3rem 0;
     }
 
     .customer-section-heading2 {
-        margin: 0 0 48px 0;
+        margin: 0 1rem 48px 1rem;
     }
 
     .customer-container {
         display: flex;
-        margin: 0;
-        width: 100%;
+        margin: 0 2rem;
+        width: calc(100% - 4rem);
     }
 
     .customer-box {
-        width: 293px;
-        height: 238px;
+      
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -45,7 +46,7 @@
 
     .customer-box p {
         text-align: center;
-        padding: 20px 40px;
+        padding: 20px 30px;
         margin: 0;
         font-size: var(--paragraph-small);
     }
@@ -138,6 +139,7 @@
         height: 100%;
         justify-content: center;
         width: 322px;
+        margin-left: 2rem;
     }
 
     .business-information-container p:first-of-type {
